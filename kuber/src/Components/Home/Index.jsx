@@ -1,4 +1,4 @@
-import { Box, Grid, GridItem } from "@chakra-ui/react";
+import { Box, Grid, GridItem, SimpleGrid } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Card from "../Card/Index"
@@ -31,16 +31,16 @@ const Index = () => {
   //  console.log(data)
   return (
     <div>
-      <Grid templateColumns='repeat(3, 1fr)'  >
+      <SimpleGrid Columns={[1,2,3]}  >
         {data&&data.map((el)=>(
           <Card   {...el} />
         ))}
-      </Grid>
-      <Grid templateColumns='repeat(3, 1fr)'  >
+      </SimpleGrid>
+      <SimpleGrid Columns={[1,2,3]}  >
         {womendata&&womendata.map((el)=>(
           <Card   {...el} />
         ))}
-      </Grid>
+      </SimpleGrid>
     </div>
   );
 };

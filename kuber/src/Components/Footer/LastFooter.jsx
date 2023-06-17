@@ -50,7 +50,7 @@ import {
           spacing={4}
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}>
-          <Text>© 2022 Chakra Templates. All rights reserved</Text>
+          <Text> © 2023 kuber8's & co. All rights reserved</Text>
           <Stack direction={'row'} spacing={6}>
             <SocialButton label={'Twitter'} href={'#'}>
               <FaTwitter />

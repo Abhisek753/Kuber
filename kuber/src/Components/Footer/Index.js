@@ -99,7 +99,7 @@ import {
             <Image style={{width:"140px",height:"90px"}} src={logo} />
           </Flex>
           <Text pt={6} fontSize={'sm'} textAlign={'center'}>
-            © 2022 Chakra Templates. All rights reserved
+            © 2023 kuber8's & co.
           </Text>
         </Box>
       </Box>
