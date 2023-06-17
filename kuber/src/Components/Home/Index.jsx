@@ -31,12 +31,12 @@ const Index = () => {
   //  console.log(data)
   return (
     <div>
-      <SimpleGrid Columns={[1,2,3]}  >
+      <SimpleGrid m="auto" w="95%" gap={5} columns={[1, 2, 3, 4]}  >
         {data&&data.map((el)=>(
           <Card   {...el} />
         ))}
       </SimpleGrid>
-      <SimpleGrid Columns={[1,2,3]}  >
+      <SimpleGrid columns={[1,2,3,4]} m="auto" w="95%" >
         {womendata&&womendata.map((el)=>(
           <Card   {...el} />
         ))}
